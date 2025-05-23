@@ -18,7 +18,7 @@ Whether you are a marketer, influencer, or just want to automate personal outrea
 
 Set up your messaging parameters and upload your recipient list file.
 
-![Configuration](./screenshots/Screenshot%20from%202025-05-23%2002-33-00.png)
+![Configuration](./screenshots/Configuration.png)
 
 ---
 
@@ -26,7 +26,7 @@ Set up your messaging parameters and upload your recipient list file.
 
 Choose a time of day when messages will be sent automatically.
 
-![Scheduler](./screenshots/Screenshot%20from%202025-05-23%2002-33-07.png)
+![Scheduler](./screenshots/Scheduler.png)
 
 ---
 
@@ -34,29 +34,10 @@ Choose a time of day when messages will be sent automatically.
 
 Track the status of each message (sent, failed, timestamped).
 
-![Results](./screenshots/Screenshot%20from%202025-05-23%2002-33-17.png)
+![Results](./screenshots/Results.png)
+
+---
 
 ## 📁 Project Structure
 
-instagram-message-sender/
-│
-├── app/                      # Main application directory
-│   ├── __init__.py           # Makes app a Python package
-│   ├── main.py               # Main Streamlit application (your current code)
-│   ├── config.py             # Configuration settings and constants
-│   ├── assets/               # Static assets (CSS, images)
-│   │   └── styles.css        # CSS styles (extracted from your code)
-│   │
-│   └── modules/              # Application modules
-│       ├── browser.py        # Browser/Selenium operations
-│       ├── file_io.py        # File input/output operations
-│       └── scheduler.py      # Scheduling functions
-│               
-├── data/                     # Data files
-│   ├── input/                # Input Excel files
-│   └── output/               # Output CSV files
-│       └── Profile_links_updated.csv
-│
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
-└── .gitignore                # Git ignore file
+![project-structure](./screenshots/project-structure.png)
